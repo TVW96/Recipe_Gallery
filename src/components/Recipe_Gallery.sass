@@ -1,5 +1,5 @@
-
 $black-bronze: #1f1d1b
+$light-bronze: #DAAA5E
 
 .Page
     display: flex
@@ -9,12 +9,12 @@ $black-bronze: #1f1d1b
     flex-direction: column
     justify-content: center
     align-items: center
+    background-color: rgb(235, 235, 235)
     h1
         font-family: "Marker"
         font-size: 46px
         font-weight: 400
         letter-spacing: 2px
-        margin-bottom: 100px
 .recipeGallery
     display: flex
     justify-content: flex-start
@@ -22,10 +22,11 @@ $black-bronze: #1f1d1b
     flex-direction: column
     flex-wrap: wrap
     width: auto
-    padding: 100px
+    padding-block: 20px
+    padding-inline: 100px
     height: auto
     max-height: auto
-    background: rgb(245, 245, 245)
+    background-color: $light-bronze
     .recipe
         border: white 1px solid 
         border-radius: 5px
