@@ -1,11 +1,12 @@
 import React from 'react';
-import Recipe_Gallery from './components/Recipe_Gallery';
+import Gallery from './components/Gallery';
+import "./App.css";
 
 function App() {
   return (
     <div className='App'>
       <div className='App-header'>
-        <Recipe_Gallery />
+        <Gallery />
       </div>
     </div>
   )
